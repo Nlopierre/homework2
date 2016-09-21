@@ -3,6 +3,7 @@
     <head>
         <title>Game of Thrones Fan Page</title>
         <link rel="icon" href="../img/logo.ico">
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
     </head>
     <body style="background-color:#1a1a1a;">
          <div id="header" align="center">
@@ -10,31 +11,35 @@
         </div>
         <div id="menu" align="center" style="font-size:20px; padding-bottom:20px;">
             <p>
-                <a href="../index.html" style="padding: 10px 45px;color: #e6ac00;">Home</a>
-                <a href=" " style="padding: 10px 45px;color: #e6ac00;">Characters</a> 
-                <a href="../map/index.html" style="padding: 10px 45px;color: #e6ac00;">Map</a>
+                <a id="menu-index" href="../index.html" >Home</a>
+                <a id="menu-characters" href=" ">Characters</a> 
+                <a id="menu-map" href="../map/index.html">Map</a>
             </p>
         </div>
-        <div id="pictures">
-                <a href="jon_snow.html"><img src="img/index_jon.jpg" title="Jon Snow" alt="Jon Snow's picture" style="padding:20px"></a>
-
-                <a href="daenerys_targaryen.html" align="center"><img src="img/index_daenerys.jpg" title="Daenerys Targaryen" alt="Daenerys Targaryen's picture" style="padding:20px"></a>
-
-                <a href="tyrion_lannister.html"><img src="img/index_tyrion.jpg" title="Tyrion Lannister" alt="Tyrion Lannister's picture" style="padding:20px"></a>
+        <div id="pictures-characters">
+            <a href="jon_snow.html">
+                <img src="img/index_jon.jpg" title="Jon Snow" alt="Jon Snow's picture" >
+            </a>
+            <a href="daenerys_targaryen.html" align="center">
+                <img src="img/index_daenerys.jpg" title="Daenerys Targaryen" alt="Daenerys Targaryen's picture" >
+            </a>
+            <a href="tyrion_lannister.html">
+                <img src="img/index_tyrion.jpg" title="Tyrion Lannister" alt="Tyrion Lannister's picture" >
+            </a>
         </div>
-        <div id="menu" align="center" style="font-size:20px; padding-bottom:20px;">
+        <div id="characters-list" align="center">
             <p>
-                <a href="jon_snow.html" style="color: #e6ac00;" align="left">Jon Snow</a>
-                <a href="daenerys_targaryen.html" style="color: #e6ac00; padding-left:320px; padding-right:320px">Daenerys Targeryen</a>
-                <a href="tyrion_lannister.html" style="color: #e6ac00;" align="right">Tyrion Lannister</a>
+                <a href="jon_snow.html" align="left">Jon Snow</a>
+                <a id="dany-link" href="daenerys_targaryen.html" style="padding-left:320px; padding-right:320px">Daenerys Targeryen</a>
+                <a href="tyrion_lannister.html" align="right">Tyrion Lannister</a>
             </p>
         </div>
         <br>
         <hr>
-        <div id="footer" align="center" style="color: white;">
+        <div id="footer" align="center">
             <p>Nicolas Lopierre Aguirre</p>
             <p>Intro to Web Development</p>
-            <p><a href="../credits.html" style="color:#ffffff">Credits</a></p>
+            <p><a href="../credits.html" >Credits</a></p>
         </div>
     </body>
 </html>
