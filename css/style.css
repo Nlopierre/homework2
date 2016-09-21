@@ -1,0 +1,95 @@
+/* Home */
+body{
+    background-color:#1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:#e6ac00;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px;
+    color: #e6ac00;
+}
+
+#menu{
+    font-size:20px;
+    padding-bottom:20px;
+}
+
+#menu-index{
+    padding: 10px 45px;
+    color: #e6ac00;
+}
+
+#menu-characters{
+    padding: 10px 45px;
+    color: #e6ac00;
+}
+
+#menu-map{
+    padding: 10px 45px;
+    color: #e6ac00;
+}
+
+#welcome{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome-title{
+    font-size:36px;
+}
+
+#welcome-message{
+    font-size:20px;
+}
+
+#pictures a{
+    padding:20px;
+}
+
+#pictures figcaption{
+    font-size: 24px;
+}
+
+#footer p{
+    color:#ffffff;
+}
+
+#footer a{
+    color:white;
+}
+
+/* Index characters*/
+#pictures-characters a img{
+    padding:20px;
+}
+
+#characters-list{
+    font-size:20px; padding-bottom:20px;
+}
+
+/* characters */
+
+#char-picture{
+    padding:15px;
+}
+
+#description{
+    color:#ffffff; 
+    padding:10px 30px 100px 400px;
+}
+
+h2{
+    color:#e6ac00;
+}
+
+#scene{
+    color: #e6ac00;
+}
+
+/* Map */
+
